@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⌘</span>
+            <span>GitHub Finder</span>
+        </div>
+        <a href="#" class="github-link">GitHub</a>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="small-label">DEVELOPER TOOL</div>
+            <h1>GitHub Profile<br>Finder</h1>
+            <p class="description">
+                Discover GitHub profiles and explore developer repositories in one place.
+            </p>
+        </section>
+
+        <section class="search-section">
+            <label for="username">GitHub Username</label>
+
+            <div class="search-box">
+                <input type="text" id="username" placeholder="Enter username...">
+                <button type="button">Search</button>
+            </div>
+
+            <div class="suggestions">
+                <span>Try:</span>
+                <button type="button">sindresorhus</button>
+                <button type="button">torvalds</button>
+                <button type="button">dan</button>
+            </div>
+        </section>
+
+        <section class="profile-card">
+
+            <div class="profile-top">
+                <img src="https://avatars.githubusercontent.com/u/170270?v=4" alt="Profile picture">
+
+                <div class="profile-info">
+                    <h2>Sindre Sorhus</h2>
+                    <a href="#">@sindresorhus</a>
+                    <span class="profile-badge">Developer</span>
+                </div>
+            </div>
+
+            <p class="bio">
+                Full-time open-source developer. Creating tools and experiences that make development easier.
+            </p>
+
+            <div class="profile-details">
+                <span>📍 Norway</span>
+                <span>🔗 sindresorhus.com</span>
+                <span>🐙 GitHub Developer</span>
+            </div>
+
+            <div class="stats">
+
+                <div class="stat-box">
+                    <span class="stat-number">1,200</span>
+                    <span class="stat-label">Repositories</span>
+                </div>
+
+                <div class="stat-box">
+                    <span class="stat-number">55K</span>
+                    <span class="stat-label">Followers</span>
+                </div>
+
+                <div class="stat-box">
+                    <span class="stat-number">200</span>
+                    <span class="stat-label">Following</span>
+                </div>
+
+            </div>
+
+            <a href="#" class="view-profile">View GitHub Profile ↗</a>
+
+        </section>
+
+        <section class="repositories">
+
+            <div class="section-heading">
+                <div>
+                    <span class="small-label">OPEN SOURCE</span>
+                    <h2>Latest Repositories</h2>
+                </div>
+                <span class="repo-count">6 repositories</span>
+            </div>
+
+            <div class="repo-list">
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>awesome</h3>
+                    </div>
+                    <p>Awesome lists about all kinds of interesting topics.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 150K</span>
+                        <span>⑂ 12K</span>
+                    </div>
+                </article>
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>got</h3>
+                    </div>
+                    <p>Human-friendly and powerful HTTP request library.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 14K</span>
+                        <span>⑂ 900</span>
+                    </div>
+                </article>
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>p-map</h3>
+                    </div>
+                    <p>Map over promises concurrently with limited concurrency.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 2K</span>
+                        <span>⑂ 100</span>
+                    </div>
+                </article>
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>execa</h3>
+                    </div>
+                    <p>Process execution for humans.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 7K</span>
+                        <span>⑂ 300</span>
+                    </div>
+                </article>
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>chalk</h3>
+                    </div>
+                    <p>Terminal string styling done right.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 22K</span>
+                        <span>⑂ 700</span>
+                    </div>
+                </article>
+
+                <article class="repo-card">
+                    <div class="repo-title">
+                        <span>📁</span>
+                        <h3>ora</h3>
+                    </div>
+                    <p>Elegant terminal spinner.</p>
+                    <div class="repo-details">
+                        <span>🟡 JavaScript</span>
+                        <span>⭐ 9K</span>
+                        <span>⑂ 400</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>GitHub Profile Finder</p>
+            <span>Built with HTML & CSS</span>
+        </footer>
+
+    </main>
+
+</body>
+</html>
